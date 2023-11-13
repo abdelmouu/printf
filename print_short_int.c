@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * prinhint - prints a short integer in decimal format.
  * @arguments: The short integer to print.
