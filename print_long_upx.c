@@ -26,7 +26,7 @@ int prinlupx(va_list arguments, char *buf, unsigned int ibuf)
 	}
 
 	bin = malloc(sizeof(char) * (64 + 1));
-	bin = fill_bin_array(bin, input, isnega, 64);
+	bin = fill_binary_array(bin, input, isnega, 64);
 	hexa = malloc(sizeof(char) * (16 + 1));
 	hexa = fill_hex_array(bin, hexa, 1, 16);
 	for (frst_dig = i = c = 0; hexa[i]; i++)
