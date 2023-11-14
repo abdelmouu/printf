@@ -14,7 +14,7 @@
 
 char *fill_oct_array(char *bnr, char *oct)
 {
-	int i, j, k x, l;
+	int i, j, k, x, l;
 
 	oct[11] = '\0';
 	for (i = 31, x = 10; i >= 0; i--, x--)

@@ -11,7 +11,7 @@
  * Return: The count of identifiers present in the string.
  */
 
-int get_print_func(const char *s, int index)
+int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 {
 	print_t p[] = {
 	{"c", print_chr}, {"s", print_str}, {"i", print_int}, {"d", print_int},

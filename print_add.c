@@ -35,7 +35,7 @@ int print_add(va_list arguments, char *buf, unsigned int ibuf)
 		isneg = 1;
 	}
 	bin = malloc(sizeof(char) * (64 + 1));
-	bin = fill_bin_array(bin, input, isneg, 64);
+	bin = fill_binary_array(bin, input, isneg, 64);
 	hex = malloc(sizeof(char) * (16 + 1));
 	hex = fill_hex_array(bin, hex, 0, 16);
 	ibuf = handl_buf(buf, '0', ibuf);

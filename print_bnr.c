@@ -30,7 +30,7 @@ int print_bnr(va_list arguments, char *buf, unsigned int ibuf)
 		neg = 1;
 	}
 	bin = malloc(sizeof(char) * (32 + 1));
-	bin = fill_bin_array(bin, input, neg, 32);
+	bin = fill_binary_array(bin, input, neg, 32);
 	indexPr = 0;
 	for (c = i = 0; bin[i]; i++)
 	{
