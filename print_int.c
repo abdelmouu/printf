@@ -12,7 +12,7 @@
  * Return: The number of characters printed for the integer value.
  */
 
-int print(va_list arguments, char *buf, unsigned int ibuf)
+int print_int(va_list arguments, char *buf, unsigned int ibuf)
 {
 	int x;
 	unsigned int i, in, tmp, div, neg;
