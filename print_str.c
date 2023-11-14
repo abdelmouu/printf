@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_strg - writes the given string to standard output.
+ * print_str - writes the given string to standard output.
  * @arguments: The input string to print.
  * @buf: The buffer pointer.
  * @ibuf: The index for the buffer pointer.
  *
  * Return: 1 on success.
  */
-int print_strg(va_list arguments, char *buf, unsigned int ibuf)
+int print_str(va_list arguments, char *buf, unsigned int ibuf)
 {
 	char *strg;
 	unsigned int i;
