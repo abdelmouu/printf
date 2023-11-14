@@ -26,7 +26,7 @@ int prinhoct(va_list arguments, char *buf, unsigned int ibuf)
 	}
 
 	bin = malloc(sizeof(char) * (16 + 1));
-	bin = fill_bin_array(bin, input, isnega, 16);
+	bin = fill_binary_array(bin, input, isnega, 16);
 	octl = malloc(sizeof(char) * (6 + 1));
 	octl = fill_short_oct_array(bin, octl);
 	for (frst_dig = i = c = 0; octl[i]; i++)
