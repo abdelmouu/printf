@@ -32,7 +32,7 @@ int prinlhex(va_list arguments, char *buf, unsigned int ibuf)
 	}
 
 	bin = malloc(sizeof(char) * (64 + 1));
-	bin = fill_bin_array(bin, in, neg, 64);
+	bin = fill_binary_array(bin, in, neg, 64);
 	hex = malloc(sizeof(char) * (16 + 1));
 	hex = fill_hex_array(bin, hex, 0, 16);
 	for (indexPr = i = c = 0; hex[i]; i++)
