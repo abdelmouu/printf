@@ -26,7 +26,7 @@ int prinhhex(va_list arguments, char *buf, unsigned int ibuf)
 	}
 
 	bin = malloc(sizeof(char) * (16 + 1));
-	bin = fill_bin_array(bin, input, isnega, 16);
+	bin = fill_binary_array(bin, input, isnega, 16);
 	hexa = malloc(sizeof(char) * (4 + 1));
 	hexa = fill_hex_array(bin, hexa, 0, 4);
 	for (frst_dig = i = c = 0; hexa[i]; i++)

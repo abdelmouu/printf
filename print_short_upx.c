@@ -27,7 +27,7 @@ int prinhupx(va_list arguments, char *buf, unsigned int ibuf)
 	}
 
 	bin = malloc(sizeof(char) * (16 + 1));
-	bin = fill_bin_array(bin, int_input, isneg, 16);
+	bin = fill_binary_array(bin, int_input, isneg, 16);
 	hexa = malloc(sizeof(char) * (4 + 1));
 	hexa = fill_hex_array(bin, hexa, 1, 4);
 

@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * prinsint - prints an integer, preceded by a space.
  * @arguments: The integer to print.

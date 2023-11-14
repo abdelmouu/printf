@@ -23,7 +23,7 @@ int print_usr(va_list arguments, char *buf, unsigned int ibuf)
 			ibuf = handl_buf(buf, '\\', ibuf);
 			ibuf = handl_buf(buf, 'x', ibuf);
 			j = str[i];
-			bin = fill_bin_array(bin, j, 0, 32);
+			bin = fill_binary_array(bin, j, 0, 32);
 			hexa = fill_hex_array(bin, hexa, 1, 8);
 			ibuf = handl_buf(buf, hexa[6], ibuf);
 			ibuf = handl_buf(buf, hexa[7], ibuf);
