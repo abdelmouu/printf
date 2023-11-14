@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print - Prints an integer value.
+ * print_int - Prints an integer value.
  *
  * This function writes the x integer value to the specified buffer.
  *
